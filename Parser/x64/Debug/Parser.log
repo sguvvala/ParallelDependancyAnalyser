@@ -1,0 +1,127 @@
+﻿Build started 4/2/2016 10:05:25 PM.
+     1>Project "C:\Users\Sruthi Guvvala\Desktop\Project2HelperCode\Project2HelperCode\Parser\Parser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D zTEST_PARSER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\Parser.pdb" /Gd /TP /errorReport:prompt ConfigureParser.cpp Parser.cpp
+         Parser.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\fstream(13): error C2059: syntax error: 'namespace'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\fstream(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(21): error C2059: syntax error: 'using namespace'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(21): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(22): error C2059: syntax error: 'using namespace'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(22): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(27): error C3254: 'ClassStatement': class contains explicit override 'addRule' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(27): error C2838: 'addRule': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(33): error C3254: 'ClassStatement': class contains explicit override 'next' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(33): error C2838: 'next': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(48): error C3254: 'ClassStatement': class contains explicit override 'parse' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(48): error C2838: 'parse': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(60): error C3240: 'addAction': must be a non-overloaded abstract member function of 'IRule'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(60): error C2838: 'addAction': illegal qualified name in member declaration
+         c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(60): note: An explicit override can only be used for a method that was first introduced in an interface and whose override qualifier is an interface 
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(60): error C3244: 'void ClassStatement::addAction(IAction *)': this method was introduced by '<Unknown>' not by 'IRule'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(66): error C3240: 'doActions': must be a non-overloaded abstract member function of 'IRule'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(66): error C2838: 'doActions': illegal qualified name in member declaration
+         c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(66): note: An explicit override can only be used for a method that was first introduced in an interface and whose override qualifier is an interface 
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\parser.cpp(66): error C3244: 'void ClassStatement::doActions(ITokCollection *&)': this method was introduced by '<Unknown>' not by 'IRule'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\excpt.h(14): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\excpt.h(14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(13): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\shared\windef.h(17): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\shared\windef.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\minwinbase.h(29): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\minwinbase.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\processenv.h(38): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\processenv.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\fileapi.h(41): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\fileapi.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(37): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\utilapiset.h(32): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\utilapiset.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\handleapi.h(32): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\handleapi.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\errhandlingapi.h(36): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\errhandlingapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\fibersapi.h(36): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\fibersapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\namedpipeapi.h(37): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\namedpipeapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\profileapi.h(32): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\profileapi.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\heapapi.h(35): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\heapapi.h(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\ioapiset.h(37): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\ioapiset.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\synchapi.h(38): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\synchapi.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\interlockedapi.h(36): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\interlockedapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\processthreadsapi.h(40): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\processthreadsapi.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(62): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(62): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\memoryapi.h(41): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\memoryapi.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\threadpoollegacyapiset.h(33): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\threadpoollegacyapiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\threadpoolapiset.h(36): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\threadpoolapiset.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\bemapiset.h(33): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\bemapiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\jobapi.h(33): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\jobapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\wow64apiset.h(33): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\wow64apiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\libloaderapi.h(40): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\libloaderapi.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\securitybaseapi.h(37): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\securitybaseapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\namespaceapi.h(33): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\namespaceapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\systemtopologyapi.h(33): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\systemtopologyapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\processtopologyapi.h(36): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\processtopologyapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\securityappcontainer.h(39): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\securityappcontainer.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\realtimeapiset.h(32): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\realtimeapiset.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winbase.h(67): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winbase.h(67): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winbase.h(8820): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winbase.h(8820): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(48): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(48): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winuser.h(44): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winuser.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winnls.h(24): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winnls.h(24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\wincon.h(30): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\wincon.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\verrsrc.h(133): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\verrsrc.h(133): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winver.h(23): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winver.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winreg.h(44): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winreg.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\program files (x86)\windows kits\8.1\include\um\winnetwk.h(32): error C2059: syntax error: 'string'
+     1>c:\program files (x86)\windows kits\8.1\include\um\winnetwk.h(32): fatal error C1003: error count exceeds 100; stopping compilation
+         ConfigureParser.cpp
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(19): error C2059: syntax error: 'using namespace'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(19): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(24): error C3254: 'ClassStatement': class contains explicit override '{dtor}' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(24): error C2838: '{dtor}': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(52): error C3254: 'ClassStatement': class contains explicit override 'Attach' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(52): error C2838: 'Attach': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(63): error C3254: 'ClassStatement': class contains explicit override 'Build' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(63): error C2838: 'Build': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(125): error C3254: 'ClassStatement': class contains explicit override 'printTree' but does not derive from an interface that contains the function declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\configureparser.cpp(125): error C2838: 'printTree': illegal qualified name in member declaration
+     1>c:\users\sruthi guvvala\desktop\project2helpercode\project2helpercode\parser\actionsandrules.h(401): fatal error C1075: the left brace '{' was unmatched at the end of the file
+         Generating Code...
+     1>Done Building Project "C:\Users\Sruthi Guvvala\Desktop\Project2HelperCode\Project2HelperCode\Parser\Parser.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.98

@@ -1,0 +1,18 @@
+﻿Build started 4/1/2016 2:40:02 PM.
+     1>Project "C:\Users\Sruthi Guvvala\Desktop\Project2HelperCode\Project2HelperCode\SemiExp\SemiExp.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\SemiExp.pdb" /Gd /TP /errorReport:prompt ..\Tokenizer\Tokenizer.cpp ..\Utilities\Utilities.cpp SemiExp.cpp
+         SemiExp.cpp
+         Utilities.cpp
+         Tokenizer.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Sruthi Guvvala\Desktop\Project2HelperCode\Project2HelperCode\x64\Debug\SemiExp.lib" /NOLOGO /MACHINE:X64 x64\Debug\Tokenizer.obj
+         x64\Debug\Utilities.obj
+         x64\Debug\SemiExp.obj
+         SemiExp.vcxproj -> C:\Users\Sruthi Guvvala\Desktop\Project2HelperCode\Project2HelperCode\x64\Debug\SemiExp.lib
+     1>Done Building Project "C:\Users\Sruthi Guvvala\Desktop\Project2HelperCode\Project2HelperCode\SemiExp\SemiExp.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.15
